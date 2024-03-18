@@ -1,4 +1,4 @@
-import Bee from "./Bee";
+import Rabbit from "./Rabbit";
 
 interface GoButtonProps {
   onClick: () => void;
@@ -9,7 +9,7 @@ const GoButton = ({ onClick }: GoButtonProps) => {
       className="bg-yellow-600 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded flex items-center justify-center h-8"
       onClick={onClick}
     >
-      <Bee /> Go
+      <Rabbit /> Go
     </button>
   );
 };
